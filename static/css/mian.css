@@ -1,0 +1,20 @@
+.scrollbar-box {overflow-x:hidden;}
+.scrollbar-y{position:relative; /*margin-right:-17px;*/}
+/*.scrollbar-y .scroll-wrap{overflow-y:scroll;}*/
+.scrollbar-y .scrollbar-track{position:absolute; top:0; right:17px; bottom:0; border-radius:8px; z-index:20; opacity:0; transition:opacity .3s;}
+.scrollbar-y .show-scrollbar{opacity:1;}
+.scrollbar-y .scrollbar-track .scrollbar-thumb{margin:0 auto; border-radius:6px; cursor:default;}
+.hide.scrollbar-box .scrollbar-track {display:none;}
+.hide.scrollbar-box .scrollbar-y {margin:0;}
+.bat-back-top{width:48px; height:0; position:fixed; z-index:999; right:20px; bottom:100px; /*top:calc(50% - 40px);*/ overflow:hidden; transition:height .3s;}
+.bat-top-box{width:40px; height:40px; margin:4px; cursor:pointer; border-radius:40px; box-shadow:0 0 4px 2px #e7e7ef; background-color:var(--white-bg);}
+.bat-top-icon{width:26px; height:26px; color:var(--theme-color);}
+.show-back-top{height:48px;}
+.read-the-docs {
+    color: #888;
+}
+
+
+.footer-m{max-width:335px;}
+#bat-moving-content{position:relative; z-index:2; background-color:#fff;}
+.bat-moving-loading{position:absolute; top:0; left:0; z-index:1}
